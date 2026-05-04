@@ -1,0 +1,25 @@
+[workspace]
+authors = ["atleer <atle.rimehaug@gmail.com>"]
+channels = ["conda-forge"]
+name = "ReTune-bootcamp-2026-dev"
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+install-kernel = "python -m ipykernel install --user --name bootcamp2026"
+
+[dependencies]
+python = "3.12.*"
+numpy = ">=2.2.6,<3"
+matplotlib = ">=3.10.3,<4"
+pandas = ">=2.2.3,<3"
+seaborn = ">=0.13.2,<0.14"
+pyocclient = ">=0.6,<0.7"
+pip = ">=25.1.1,<26"
+jupyterlab = ">=4.4.3,<5"
+statannotations = ">=0.7.1,<0.8"
+scikit-learn = ">=1.6.1,<2"
+nbconvert = ">=7.17.1,<8"
+
+[pypi-dependencies]
+jupyterlab-rise = ">=0.43.1, <0.44"
