@@ -24,3 +24,5 @@ In this bootcamp, we will learn
 Explore our courses on our [learning platform website](https://learn.ibots-bonn.de/).
 
 Subscribe to our [newsletter](https://listen.uni-bonn.de/wws/subscribe/ibehave.ibots-news) to get updates on our iBOTS online workshops.
+
+Added temporary line.
